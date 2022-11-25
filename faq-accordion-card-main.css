@@ -214,7 +214,6 @@ h1 {
 .main-image {
   background-image: url("images/bg-pattern-mobile.svg");
   background-repeat: no-repeat;
-  /* background-size: clamp(8rem,calc(100%-30vw),20rem); */
   background-size: min(25rem, 60vw);
   background-position: 50% 50%;
 }
@@ -242,7 +241,6 @@ h1 {
 @media (max-width: 999px) {
   .image {
     transform: translateY(-60%);
-    /* max-width: clamp(8rem,calc(100%-50vw),20rem); */
     max-width: min(25rem, 60vw);
     margin-inline: auto;
   }
